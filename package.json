@@ -1,0 +1,19 @@
+{
+  "name": "my-first-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev -r tsconfig-paths/register --quiet --clear ./src/main.ts"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.1",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.14.1",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.2"
+  }
+}
